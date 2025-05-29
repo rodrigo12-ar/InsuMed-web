@@ -49,9 +49,14 @@ main {
   flex: 1;
   padding: 2rem;
 }
-h1 {
-  text-align: center;
+.titulo-catalogo {
+  font-size: 2rem;
+  color: #007f3f;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 .grid-productos {
   display: grid;
@@ -60,10 +65,15 @@ h1 {
 }
 .card-producto {
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+}
+.card-producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 .card-producto img {
   width: 100%;
@@ -82,16 +92,20 @@ h1 {
   background-color: #eef6ff;
   border: 1px solid #cce0f5;
   border-radius: 10px;
+  text-align: center;
 }
-.resumen-pedido button {
-  margin-top: 10px;
-  padding: 10px;
+.resumen-pedido a.enviar-wsp {
+  display: inline-block;
+  padding: 10px 16px;
   background-color: #25D366;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
+  color: white;
+  border-radius: 8px;
   font-weight: bold;
-  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.resumen-pedido a.enviar-wsp:hover {
+  background-color: #1ebe5d;
 }
 @media (max-width: 768px) {
   body {
