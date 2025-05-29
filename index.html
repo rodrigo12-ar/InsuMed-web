@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InsuMed | Insumos Médicos</title>
+  <link rel="icon" href="logos/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logos/logo.png" alt="Logo InsuMed">
+    </div>
+    <button id="menuToggle"><i class="fas fa-bars"></i></button>
+    <nav id="mainNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="contact-info">
+      <a href="mailto:contacto@insumed.com"><i class="fas fa-envelope"></i> contacto@insumed.com</a>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Bienvenidos a InsuMed</h1>
+    <p>Tu proveedor de confianza en insumos médicos.</p>
+    <a href="catalogo.html" class="boton">Ver productos</a>
+  </section>
+
+  <section id="productos">
+    <h2>Productos Seleccionados</h2>
+    <p>Ofertas especiales de la semana. ¡Aprovechalas!</p>
+    <div class="ofertas-grid">
+      <div class="oferta">
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
+      <div class="oferta">
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
+      <div class="oferta">
+        <h3>Producto 3</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
+      <div class="oferta">
+        <h3>Producto 4</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
+    </div>
+  </section>
+
+  
+<section id="nosotros" class="nosotros-banner">
+  <div class="nosotros-contenido">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      En <strong>InsuMed</strong> somos una empresa con más de 10 años de experiencia en el rubro de insumos médicos, ubicada en la ciudad de <strong>Tunuyán, Mendoza</strong>. 
+      A lo largo de los años nos hemos consolidado como líderes en la venta de productos ortopédicos y descartables, trabajando con instituciones de salud, profesionales y clientes particulares que confían en nuestra trayectoria y compromiso.
+    </p>
+    <p>
+      Nos destacamos por ser representantes oficiales de marcas reconocidas a nivel nacional e internacional, lo que garantiza la calidad y confiabilidad de nuestros productos. Contamos con un equipo capacitado y siempre dispuesto a brindar asesoramiento personalizado, priorizando la atención humana y cercana.
+    </p>
+    <p>
+      Elegirnos es optar por una empresa seria, con valores sólidos, que entiende las necesidades del sector salud. Nuestra misión es ser un aliado estratégico para nuestros clientes, ofreciendo productos confiables, entregas rápidas y un servicio postventa que marca la diferencia.
+    </p>
+  </div>
+</section>
+
+
+  
+<section id="contacto" class="contacto-seccion">
+  <div class="contacto-contenido">
+    <h2>Contacto</h2>
+    <p><i class="fas fa-envelope"></i> <a href="mailto:contacto@insumed.com">contacto@insumed.com</a></p>
+    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/542645072923" target="_blank">+54 2645 072923</a></p>
+    <div class="redes-sociales">
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+</section>
+
+
+  <script>
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('mainNav').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+

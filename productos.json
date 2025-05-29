@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "nombre": "Guantes de Látex",
+      "categoria": "descartables",
+      "descripcion": "Alta resistencia y sensibilidad táctil.",
+      "precio": 2500,
+      "imagen": "https://via.placeholder.com/300x180",
+      "activo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Barbijos Tricapa",
+      "categoria": "descartables",
+      "descripcion": "Protección certificada para uso médico.",
+      "precio": 1000,
+      "imagen": "https://via.placeholder.com/300x180",
+      "activo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Muñequera Neoprene",
+      "categoria": "ortopedia",
+      "descripcion": "Soporte ortopédico flexible y cómodo.",
+      "precio": 3200,
+      "imagen": "https://via.placeholder.com/300x180",
+      "activo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Cemento Dental",
+      "categoria": "odontologia",
+      "descripcion": "Alta calidad para tratamientos dentales.",
+      "precio": 2800,
+      "imagen": "https://via.placeholder.com/300x180",
+      "activo": true
+    },
+    {
+        "id":5,
+        "nombre": "cubre camilla",
+        "categoria": "odontologia",
+        "descripcion": "Alta calidad para tratamientos dentales.",
+        "precio": 2800,
+        "imagen": "https://via.placeholder.com/300x180",
+        "activo": true
+      }
+  ]
+  

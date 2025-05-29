@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo | InsuMed</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="catalogo.css" />
+</head>
+<body>
+  <aside>
+    <h2>Filtros</h2>
+
+    <label for="empresa">Empresa:</label>
+    <input type="text" id="empresa" placeholder="Nombre de tu empresa...">
+
+    <label for="filtro-categoria">Categoría:</label>
+    <select id="filtro-categoria">
+      <option value="todos">Todas</option>
+      <option value="descartables">Descartables</option>
+      <option value="ortopedia">Ortopedia</option>
+      <option value="odontologia">Odontología</option>
+    </select>
+
+    <label for="buscador">Buscar:</label>
+    <input type="text" id="buscador" placeholder="Buscar productos...">
+
+    <a href="index.html" class="btn-volver"><i class="fas fa-arrow-left"></i> Volver al Inicio</a>
+  </aside>
+
+  <main>
+    <h1>Catálogo de Productos</h1>
+    <div class="grid-productos" id="productos-container"></div>
+    <div id="resumen-pedido" class="resumen-pedido"></div>
+  </main>
+
+  <script src="catalogo.js"></script>
+</body>
+</html>
