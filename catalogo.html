@@ -11,7 +11,6 @@
 <body>
   <aside>
     <h2>Filtros</h2>
-
     <label for="empresa">Empresa:</label>
     <input type="text" id="empresa" placeholder="Nombre de tu empresa...">
 
@@ -30,9 +29,11 @@
   </aside>
 
   <main>
-    <h1>Catálogo de Productos</h1>
+    <h1 class="titulo-catalogo"><i class="fas fa-boxes"></i> Nuestro Catálogo de Productos</h1>
     <div class="grid-productos" id="productos-container"></div>
-    <div id="resumen-pedido" class="resumen-pedido"></div>
+    <div id="resumen-pedido" class="resumen-pedido">
+      <a href="https://wa.me/542645072923?text=Hola,%20quiero%20realizar%20un%20pedido%20de%20productos" class="enviar-wsp" target="_blank">Enviar pedido por WhatsApp</a>
+    </div>
   </main>
 
   <script src="catalogo.js"></script>
