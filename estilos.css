@@ -226,4 +226,36 @@
   .redes-sociales a:hover {
     color: var(--color-hover);
   }
+.marcas-banner {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.marcas-banner h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.logos-marcas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.logos-marcas img {
+  max-height: 80px;
+  max-width: 150px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logos-marcas img:hover {
+  transform: scale(1.05);
+}
+
   
