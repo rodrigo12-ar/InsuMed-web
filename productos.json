@@ -1,48 +1,276 @@
 [
-    {
-      "id": 1,
-      "nombre": "Guantes de Látex",
-      "categoria": "descartables",
-      "descripcion": "Alta resistencia y sensibilidad táctil.",
-      "precio": 2500,
-      "imagen": "https://via.placeholder.com/300x180",
-      "activo": true
-    },
-    {
-      "id": 2,
-      "nombre": "Barbijos Tricapa",
-      "categoria": "descartables",
-      "descripcion": "Protección certificada para uso médico.",
-      "precio": 1000,
-      "imagen": "https://via.placeholder.com/300x180",
-      "activo": true
-    },
-    {
-      "id": 3,
-      "nombre": "Muñequera Neoprene",
-      "categoria": "ortopedia",
-      "descripcion": "Soporte ortopédico flexible y cómodo.",
-      "precio": 3200,
-      "imagen": "https://via.placeholder.com/300x180",
-      "activo": true
-    },
-    {
-      "id": 4,
-      "nombre": "Cemento Dental",
-      "categoria": "odontologia",
-      "descripcion": "Alta calidad para tratamientos dentales.",
-      "precio": 2800,
-      "imagen": "https://via.placeholder.com/300x180",
-      "activo": true
-    },
-    {
-        "id":5,
-        "nombre": "cubre camilla",
-        "categoria": "odontologia",
-        "descripcion": "Alta calidad para tratamientos dentales.",
-        "precio": 2800,
-        "imagen": "https://via.placeholder.com/300x180",
-        "activo": true
-      }
-  ]
-  
+  {
+    "id": 125,
+    "nombre": "Algodón en rollo x 1 kilo",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 3700,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 126,
+    "nombre": "Algodón hidrófilo x 500 grs.",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1800,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 127,
+    "nombre": "Algodón por kg. x unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 3300,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 128,
+    "nombre": "Algodón por kg. x unidad tipo hospitalario",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 3750,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 129,
+    "nombre": "Algodón tipo hospitalario x 500 grs.",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1980,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 130,
+    "nombre": "Aposito post quirurgico x unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 480,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 131,
+    "nombre": "Apósito post quirúrgico 10 x 10 x unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 850,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 132,
+    "nombre": "Apósito post quirúrgico 10 x 30 x unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1400,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 133,
+    "nombre": "Apósito post quirúrgico 15 x 20 x unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1700,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 134,
+    "nombre": "Apósito post quirúrgico 9 x 10 x unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 480,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  }
+]
+[
+  {
+    "id": 115,
+    "nombre": "Aguja descartable 25/4 (naranja) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 116,
+    "nombre": "Aguja descartable 26/4 (marron) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 117,
+    "nombre": "Aguja descartable 27/4 (gris) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 118,
+    "nombre": "Aguja descartable 30/4 (amarilla) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 119,
+    "nombre": "Aguja descartable hipodermica 21g x 1 ½ c/100 biosafe",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 17,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 120,
+    "nombre": "Alcohol 70º x 1 lt. unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1600,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 121,
+    "nombre": "Alcohol boricado x 1 lt. unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1900,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 122,
+    "nombre": "Alcohol en gel x 5 lts. bidón",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 8900,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 123,
+    "nombre": "Alcohol en gel x 250 ml. unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1700,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 124,
+    "nombre": "Algodón en rollo x 500 grs.",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1940,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  }
+]
+[
+  {
+    "id": 100,
+    "nombre": "Aerocamara pediatrica aero 100 unidad",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 7190,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 102,
+    "nombre": "Agua oxigenada 10 vol. x 1 lt. casanova unidad x 1 litro",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 1911,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 106,
+    "nombre": "Agua oxigenada 10 vol. x 110 cms drogal",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 692,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 107,
+    "nombre": "Aguja descartable 13/4 (27g x ½) - bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 141,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 109,
+    "nombre": "Aguja descartable 16/5 - bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 26,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 110,
+    "nombre": "Aguja descartable 18 x 1 ½ ( verde) caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 111,
+    "nombre": "Aguja descartable 18/4 – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 112,
+    "nombre": "Aguja descartable 21/4 ( verde) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 113,
+    "nombre": "Aguja descartable 22/4 (negra) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  },
+  {
+    "id": 114,
+    "nombre": "Aguja descartable 23/4 (azul) – bremen caja x 100",
+    "categoria": "otros",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 25,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
+  }
+]
