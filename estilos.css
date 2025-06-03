@@ -239,24 +239,26 @@
   color: #333;
 }
 
-.logos-marcas {
+.logo-container {
+  width: 160px;
+  height: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  background-color: white; /* opcional */
+  border-radius: 8px;       /* opcional */
 }
 
-.logos-marcas img {
-  width: 150px;
-  height: 80px;
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
-
-.logos-marcas img:hover {
+.logo-container img:hover {
   transform: scale(1.05);
 }
+
 
   
