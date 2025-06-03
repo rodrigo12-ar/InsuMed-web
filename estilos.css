@@ -259,6 +259,27 @@
 .logo-container img:hover {
   transform: scale(1.05);
 }
+@media (max-width: 600px) {
+  .logos-marcas {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 15px;
+  }
+
+  .logo-container {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    width: 120px;
+    height: 80px;
+  }
+
+  .logos-marcas::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento en móviles */
+  }
+}
+
 
 
   
