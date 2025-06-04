@@ -146,27 +146,7 @@
     margin-bottom: 1.5rem;
   }
   
-  @media (max-width:500px) {
-    #menuToggle {
-      display: block;
-    }
-  
-    nav {
-      display: none;
-      flex-direction: row-reverse;
-      background: var(--color-header);
-      position: absolute;
-      top: 20px;
-      left: 0;
-      right: 0;
-      padding: 1rem;
-    }
-  
-    nav.active {
-      display: flex;
-    }
-  }
-  
+ 
   
   .contacto-seccion {
     background: #f0f0f0;
