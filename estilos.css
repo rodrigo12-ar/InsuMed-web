@@ -153,7 +153,7 @@
   
     nav {
       display: none;
-      flex-direction: column;
+      flex-direction: row;
       background: var(--color-header);
       position: absolute;
       top: 80px;
