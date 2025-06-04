@@ -156,7 +156,7 @@
       flex-direction: row-reverse;
       background: var(--color-header);
       position: absolute;
-      top: 40px;
+      top: 20px;
       left: 0;
       right: 0;
       padding: 1rem;
