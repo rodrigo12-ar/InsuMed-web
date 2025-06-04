@@ -151,6 +151,7 @@
     flex-wrap: nowrap;
     scroll-snap-type: x mandatory;
     padding: 20px;
+    flex-direccion: row-reverse;  
   }
 
   .logo-container {
