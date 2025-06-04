@@ -145,27 +145,35 @@
     line-height: 1.8;
     margin-bottom: 1.5rem;
   }
-  @media (max-width: 200px) {
-  .logos-marcas {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    scroll-snap-type: x mandatory;
-    padding: 20px;
-    flex-direccion: row-reverse;  
-  }
-
-  .logo-container {
-    flex: 0 0 auto;
-    scroll-snap-align: center;
-    min-width: 100px;
-  }
-
-  .logos-marcas::-webkit-scrollbar {
-    display: none;
-  }
+ .logos-marcas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+  text-align: center;
 }
 
- 
+.logo-container {
+  flex: 0 1 150px; /* ancho fijo pero flexible si hay poco espacio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100%;       /* se adapta al contenedor */
+  max-width: 120px;  /* tamaño uniforme */
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo-container img:hover {
+  transform: scale(1.05);
+}
+
   
   .contacto-seccion {
     background: #f0f0f0;
