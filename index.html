@@ -33,16 +33,30 @@
     <a href="catalogo.html" class="boton">Ver productos</a>
   </section>
 
-  <section id="productos">
-    <h2 class="titulo-productos">🌟 Productos Seleccionados de la Semana</h2>
-    <div class="ofertas">
-      {% for i in range(1, 5) %}
+ <section id="productos">
+    <h2>Productos Seleccionados</h2>
+    <p>Ofertas especiales de la semana. ¡Aprovechalas!</p>
+    <div class="ofertas-grid">
       <div class="oferta">
-        <h3>Oferta {{ i }}</h3>
-        <p>Descripción del producto.</p>
-        <a href="https://wa.me/542645072923?text=Hola%20InsuMed,%20quisiera%20más%20información%20sobre%20el%20producto%20Oferta%20{{ i }}." class="btn-consultar" target="_blank">Consultar</a>
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
       </div>
-      {% endfor %}
+      <div class="oferta">
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
+      <div class="oferta">
+        <h3>Producto 3</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
+      <div class="oferta">
+        <h3>Producto 4</h3>
+        <p>Descripción breve del producto en oferta.</p>
+        <button class="boton">Ver más</button>
+      </div>
     </div>
   </section>
 
