@@ -145,7 +145,25 @@
     line-height: 1.8;
     margin-bottom: 1.5rem;
   }
-  
+  @media (max-width: 600px) {
+  .logos-marcas {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    padding: 20px;
+  }
+
+  .logo-container {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    min-width: 100px;
+  }
+
+  .logos-marcas::-webkit-scrollbar {
+    display: none;
+  }
+}
+
  
   
   .contacto-seccion {
