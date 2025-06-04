@@ -156,7 +156,7 @@
 }
 
 .logo-container {
-  flex: 0 1 50px; /* ancho fijo pero flexible si hay poco espacio */
+  flex: 0 1 20px; /* ancho fijo pero flexible si hay poco espacio */
   display: flex;
   justify-content: center;
   align-items: center;
