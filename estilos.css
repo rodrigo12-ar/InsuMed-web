@@ -145,7 +145,7 @@
     line-height: 1.8;
     margin-bottom: 1.5rem;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 200px) {
   .logos-marcas {
     overflow-x: auto;
     flex-wrap: nowrap;
