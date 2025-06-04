@@ -156,7 +156,7 @@
 }
 
 .logo-container {
-  flex: 0 1 50px; /* ancho fijo pero flexible si hay poco espacio */
+  flex: 0 1 150px; /* ancho fijo pero flexible si hay poco espacio */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +164,7 @@
 
 .logo-container img {
   width: 100%;       /* se adapta al contenedor */
-  max-width: 50px;  /* tamaño uniforme */
+  max-width: 100px;  /* tamaño uniforme */
   height: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
