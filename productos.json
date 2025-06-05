@@ -268,5 +268,14 @@
     "precio": 25,
     "imagen": "https://via.placeholder.com/300x180",
     "activo": true
+  };
+   {
+    "id": 86,
+    "nombre": "guantes descartables negro",
+    "categoria": "descartables",
+    "descripcion": "Producto sin descripción detallada.",
+    "precio": 350,
+    "imagen": "https://via.placeholder.com/300x180",
+    "activo": true
   }
 ]
